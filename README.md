@@ -21,4 +21,14 @@ On this repo, we have:
 1. Install [Fuel Toolchain](https://docs.fuel.network/guides/installation/)
 2. Install dependencies with pnpm: `pnpm install`
 3. Build packages: `pnpm -w build`
-4. Run the tests: `pnpm test`
+4. `cd packages/tests`
+5. Run the tests: `pnpm test`
+
+## Run debbug mode:
+
+1. Install [Fuel Toolchain](https://docs.fuel.network/guides/installation/)
+2. Install dependencies with pnpm: `pnpm install`
+3. `cd packages/tests`
+4. Copy predicate to script debbug file `pnpm debbug:setup`
+5. Add changes and build from script `pnpm debbug:build`
+6. Run your changed script `pnpm debbug:script`
